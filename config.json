@@ -1,0 +1,31 @@
+{
+    "key": ["{KEY}"],
+    "domain": "{DOMAIN}",
+    "puploadKeyGenLength": 64,
+    "public": false,
+    "maxUploadSize": 50,
+    "markdown": true,
+    "port": 80,
+    "secure": false,
+    "fileNameLength": 4,
+    "shortUrlLength": 3,
+    "securePort": 443,
+    "ratelimit": 1000,
+    "allowed":[
+      "png", "jpg", "gif", "mp4", "mp3", "jpeg", "tiff", "bmp", "ico", "psd", "eps", "raw", "cr2", "nef", "sr2", "orf", "svg", "wav", "webm", "aac", "flac", "ogg", "wma", "m4a", "gifv"
+    ],
+    "admin":{
+      "key": "{ADMIN_KEY}",
+      "maxUploadSize": 1024,
+      "allowed": [
+      "png", "jpg", "gif", "mp4", "mp3","jpeg", "tiff", "bmp", "ico", "psd", "eps", "raw", "cr2", "nef", "sr2", "orf", "svg", "wav", "webm", "aac", "flac", "ogg", "wma", "m4a", "gifv", "html"
+       ]
+    },
+    "paste": {
+      "maxUploadSize": 20
+    },
+    "discordToken": "",
+    "discordAdminIDs": [],
+    "discordChannelID": "",
+    "prefix": ""
+  }
